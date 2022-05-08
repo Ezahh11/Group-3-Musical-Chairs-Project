@@ -1,0 +1,15 @@
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\bin\Debug\Group 3 Musical Chairs Project.exe.config
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\bin\Debug\Group 3 Musical Chairs Project.exe
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\bin\Debug\Group 3 Musical Chairs Project.pdb
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project.csproj.AssemblyReference.cache
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\MainWindow.g.cs
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\App.g.cs
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project_MarkupCompile.cache
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project_MarkupCompile.lref
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\MainWindow.baml
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project.g.resources
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group_3_Musical_Chairs_Project.Properties.Resources.resources
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project.csproj.GenerateResource.cache
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project.csproj.CoreCompileInputs.cache
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project.exe
+C:\Users\Eric\Documents\Eric Education\School - Calhoun\CIS285 Object-Oriented Programming\Project Stuff\Group 3 Musical Chairs Project\obj\Debug\Group 3 Musical Chairs Project.pdb

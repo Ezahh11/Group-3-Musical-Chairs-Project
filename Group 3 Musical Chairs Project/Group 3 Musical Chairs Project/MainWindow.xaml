@@ -1,0 +1,114 @@
+﻿<Window x:Class="Group_3_Musical_Chairs_Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Group_3_Musical_Chairs_Project"
+        mc:Ignorable="d"
+        Title="Welcome to Musical Chairs!" Height="500" Width="700" Margin="3,0,0,0">
+    <Grid x:Name="mainGrid" Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="5*"/>
+            
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="player1" FontSize="18"/>
+        <TextBlock x:Name="player2" Grid.Row="1" FontSize="18"/>
+        <TextBlock x:Name="player3" Grid.Row="2" FontSize="18"/>
+        <TextBlock x:Name="player4" Grid.Row="3" FontSize="18"/>
+        <TextBlock x:Name="chair1" Grid.Row="4" FontSize="18"/>
+        <TextBlock x:Name="chair2" Grid.Row="5" FontSize="18"/>
+        <TextBlock x:Name="chair3" Grid.Row="6" FontSize="18" FontStyle="Italic" HorizontalAlignment="Right" Grid.ColumnSpan="2" VerticalAlignment="Bottom"/>
+        <TextBlock x:Name="MusicPlayer" Grid.Column="1" HorizontalAlignment="Right" FontSize="18"/>
+        <TextBlock x:Name="StartGame" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="1" FontSize="18"/>
+        <TextBlock x:Name="MovePlayer" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="2" FontSize="18"/>
+        <TextBlock x:Name="Empty1" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="3" FontSize="18"/>
+        <TextBlock x:Name="Empty2" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="4" FontSize="18"/>
+        <TextBlock x:Name="Empty3" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="5" FontSize="18"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="20,30,0,0" TextWrapping="Wrap" Text="MusicPlayer" VerticalAlignment="Top" MouseDown="PlayMusic">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Purple Hexagon for Music Player.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <Button Content="Start Game" Grid.Column="1" HorizontalAlignment="Left" Margin="199,31,0,0" VerticalAlignment="Top" Width="75" MouseDown="PlayMusic"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="199,52,0,0" Grid.Row="1" TextWrapping="Wrap" Text="PlayerSlot" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Red Circle for User Player.png"/>
+            </TextBlock.Background>
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="161,122,0,0" Grid.Row="1" TextWrapping="Wrap" Text="ChairSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Green Square for Chair.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="161,164,0,0" Grid.Row="1" TextWrapping="Wrap" Text="ChairSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Green Square for Chair.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="266,164,0,0" Grid.Row="1" TextWrapping="Wrap" Text="ChairSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Green Square for Chair.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="266,122,0,0" Grid.Row="1" TextWrapping="Wrap" Text="ChairSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Green Square for Chair.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="266,203,0,0" Grid.Row="1" TextWrapping="Wrap" Text="ChairSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Green Square for Chair.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="161,206,0,0" Grid.Row="1" TextWrapping="Wrap" Text="ChairSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Green Square for Chair.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="31,151,0,0" Grid.Row="1" TextWrapping="Wrap" Text="AutoPlayerSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Blue Circle for Players.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="364,193,0,0" Grid.Row="1" TextWrapping="Wrap" Text="AutoPlayerSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Blue Circle for Players.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="364,151,0,0" Grid.Row="1" TextWrapping="Wrap" Text="AutoPlayerSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Blue Circle for Players.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="186,273,0,0" Grid.Row="1" TextWrapping="Wrap" Text="AutoPlayerSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Blue Circle for Players.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="31,193,0,0" Grid.Row="1" TextWrapping="Wrap" Text="AutoPlayerSlot" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="Blue Circle for Players.png"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="217,167,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Center" VerticalAlignment="Top">
+            <TextBlock.Background>
+                <ImageBrush/>
+            </TextBlock.Background>
+        </TextBlock>
+
+    </Grid>
+</Window>
